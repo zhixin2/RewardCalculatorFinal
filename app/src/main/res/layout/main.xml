@@ -88,13 +88,14 @@
             android:layout_marginTop="35dp"
             android:text="Apply Now!"
             android:textSize="28sp" />
-<!--        <ImageView-->
-<!--            android:id="@+id/imageView"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            app:srcCompat="@drawable/xcc"-->
-<!--            tools:layout_editor_absoluteX="55dp"-->
-<!--            tools:layout_editor_absoluteY="130dp" />-->
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="600dp"
+            android:layout_height="160dp"
+
+            app:srcCompat="@drawable/photo"
+            android:scaleType="fitXY"/>
 
 
     </LinearLayout>
